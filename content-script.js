@@ -108,7 +108,7 @@ function scrape(authToken) {
                         woltPrice = order.service_fee
                     }
                     var date = new Date(order.payment_time.$date);
-                    dsp = date.toLocaleString().split("/");
+                    dsp = date.toLocaleString("en-US").split("/");
                     results.push({
                         price: order.total_price,
                         itemPrices: order.items_price,
