@@ -1,0 +1,26 @@
+.wolt-stats {
+    padding: 20px;
+    padding-top: 0px;
+    border-radius: 10px;
+    position: fixed;
+    top: 20px;
+    left: 30px;
+    background-color: #049EE0;
+    z-index: 10000;
+}
+.wolt-stats h1 {
+    text-align: center;
+    padding: 30px 0;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 0px;
+}
+.wolt-stats * {
+    color: white;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+.wolt-stats .delimeter {
+    text-align: center;
+    padding: 5px 0;
+}
